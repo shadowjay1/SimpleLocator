@@ -39,7 +39,7 @@ public class SimpleLocator {
 	public static File configFile;
 	public static File offlineLocationsFile;
 	static List<String> previousPlayerList = new ArrayList<String>();
-	public static final String version = "v3.1";
+	public static final String version = "v4.0";
 	public static KeyBinding binding;
 	
 	@EventHandler
