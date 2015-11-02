@@ -33,8 +33,8 @@ import org.lwjgl.opengl.GL13;
 import shadowjay1.forge.simplelocator.gui.GuiLocatorSettings;
 
 public class LocatorListener extends Gui {
-	private static Pattern snitch = Pattern.compile("^([a-zA-Z0-9_]+) (?:entered|logged out in|logged in to) snitch at \\S* \\[(\\S+) ([-]?[0-9]+) ([-]?[0-9]+) ([-]?[0-9]+)\\]");
-	private static Pattern broadcast = Pattern.compile("^(?:[a-zA-Z0-9_]+): held by ([a-zA-Z0-9_]+) at (\\S+) ([-]?[0-9]+) ([-]?[0-9]+) ([-]?[0-9]+)");
+	private static Pattern snitch = Pattern.compile("^\u00A7b \\* ([a-zA-Z0-9_]+) (?:entered|logged out in|logged in to) snitch at \\S* \\[(\\S+) ([-]?[0-9]+) ([-]?[0-9]+) ([-]?[0-9]+)\\]");
+	private static Pattern broadcast = Pattern.compile("^\u00A72(?:Your|(?:[a-zA-Z0-9_]+)'s) prison pearl is held by ([a-zA-Z0-9_]+) at (\\S+) ([-]?[0-9]+) ([-]?[0-9]+) ([-]?[0-9]+)");
 
 	private static Minecraft mc;
 
